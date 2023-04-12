@@ -1,0 +1,15 @@
+[16, 21, 11, 8, 12, 22] dizisi için Merge Sort aşamaları:
+
+[16, 21, 11] ve [8, 12, 22] olmak üzere iki alt diziye ayır. (Ortadan ikiye böl)
+[16, 21, 11] alt dizisini [11, 16, 21] şeklinde sırala.
+[8, 12, 22] alt dizisini [8, 12, 22] şeklinde sırala.
+[11, 16, 21] ve [8, 12, 22] alt dizilerini birleştirerek [8, 11, 12, 16, 21, 22] dizisini elde et.
+Big-O gösterimi: O(n log n)
+
+[16, 21, 11, 8, 12, 22] dizisi için Merge Sort aşamaları ve alt dizileri arasındaki karşılaştırmalar:
+
+[16, 21, 11] ve [8, 12, 22]
+[16, 21] ve [11], [8, 12] ve [22]
+[16] ve [21], [11] ve bir önceki adımdaki [16, 21], [8] ve [12], [22]
+[11, 16, 21] ve [8, 12, 22]
+Toplamda 9 kez karşılaştırma yapılmıştır.
